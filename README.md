@@ -1,6 +1,6 @@
 <h1 align="center">  Evaluación de Impacto del Bono Familiar Habitacional</h1>
 
-Este repositorio contiene información para la replica de la evaluación de impacto del Bono Familiar Habitacional desarrollada en el Ministerio de Economía y Finanzas por Richar Quispe. Explora otros repositorios [aquí](https://github.com/mef-lab).
+Este repositorio contiene información para la replica de la evaluación de impacto del Bono Familiar Habitacional desarrollada en el Ministerio de Economía y Finanzas por Richar Quispe Cuba. Explora otros repositorios [aquí](https://github.com/mef-lab).
 
 
 ## Resumen
