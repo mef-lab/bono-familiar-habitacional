@@ -1,6 +1,6 @@
 <h1 align="center">  Evaluación de Impacto del Bono Familiar Habitacional</h1>
 
-Este repositorio contiene información para la replica de la evaluación de impacto del Bono Familiar Habitacional desarrollada en el Ministerio de Economía y Finanzas por Richar Quispe Cuba. Explora otros repositorios [aquí](https://github.com/mef-lab).
+Este repositorio contiene información para la replica de la [evaluación de impacto del Bono Familiar Habitacional](https://www.gob.pe/institucion/mef/informes-publicaciones/5338967-evaluacion-de-impacto-del-bono-familiar-habitacional) desarrollada en el Ministerio de Economía y Finanzas por Richar Quispe Cuba. Explora otros repositorios [aquí](https://github.com/mef-lab).
 
 
 ## Resumen
@@ -8,11 +8,7 @@ Se presenta los resultados de la evaluación de impacto del Bono Familiar Habita
 
 ## Requerimientos de software
 - Stata (version 16)
-  - `estout` (3.23)
-  - `iefieldkit` (2.0)
-  - `ietoolkit` (6.3)
-  - `unique` (1.2.4)
-  - `coefplot` (1.8.3)
+  - `reghdfe` (6.12.3)
 
 ## Instrucciones para replicar
 
@@ -27,12 +23,12 @@ Estas bases no están incluidas en este repositorio, debido a que contienen info
 
 |Descripción|Data|Institución proveedora|Nombre de archivos|Fecha de corte|
 |:---:|:---:|:---:|:---:|:---:|
-|Registro administrativo del BFH|Postulantes al programa.|MVCS (Fondo MIVIVIENDA)|2014.xlsx <br> 2015.xlsx <br> 2016.xlsx <br> 2017.xlsx <br> 2018.xlsx <br> 2019.xlsx|11/11/2023|
-|Registro administrativo de beneficiarios del BFH|Beneficiarios del programa.|MVCS (Fondo MIVIVIENDA)|Desembolsos AVN historico.xlsx|14/05/2023|
-|SIAGIE|Estudiantes de EBR.|MINEDU|siagie_2014.dta <br> siagie_2015.dta <br> siagie_2016.dta <br> siagie_2017.dta <br> siagie_2018.dta <br> siagie_2019.dta|15/12/2023|
-|SIAGIE|Data actualizada y revisada del SIAGIE; se utiliza solo el dato sobre secciones.|MINEDU|siagie_2014_nue.dta <br> siagie_2015_nue.dta <br> siagie_2016_nue.dta|08/09/2023|
-|Registro de docentes de EBR|Docentes de EBR.|MINEDU|docente2014_2022.dta|01/11/2023|
-|Base de datos del HIS|Atenciones registradas en el HIS.|MINSA|trama_HIS_2017_bfh <br> trama_HIS_2018_bfh.dta <br> trama_HIS_2019_bfh.dta|15/07/2023|
+|Registro administrativo del BFH|Postulantes al programa.|MVCS (Fondo MIVIVIENDA)|2014.xlsx <br> 2015.xlsx <br> 2016.xlsx <br> 2017.xlsx <br> 2018.xlsx <br> 2019.xlsx|14/04/2023|
+|Registro administrativo de beneficiarios del BFH|Beneficiarios del programa.|MVCS (Fondo MIVIVIENDA)|Desembolsos AVN historico.xlsx|14/04/2023|
+|SIAGIE|Estudiantes de EBR.|MINEDU|siagie_2014.dta <br> siagie_2015.dta <br> siagie_2016.dta <br> siagie_2017.dta <br> siagie_2018.dta <br> siagie_2019.dta|30/01/2023|
+|SIAGIE|Data actualizada y revisada del SIAGIE; se utiliza solo el dato sobre secciones.|MINEDU|siagie_2014_nue.dta <br> siagie_2015_nue.dta <br> siagie_2016_nue.dta|08/05/2023|
+|Registro de docentes de EBR|Docentes de EBR.|MINEDU|docente2014_2022.dta|13/07/2023|
+|Base de datos del HIS|Atenciones registradas en el HIS.|MINSA|trama_HIS_2017_bfh <br> trama_HIS_2018_bfh.dta <br> trama_HIS_2019_bfh.dta|28/02/2023|
 
 
 ## Cómo contribuir
